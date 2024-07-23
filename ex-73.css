@@ -1,0 +1,49 @@
+#container {
+    background-color: beige;
+    width: 30%;
+    padding: 2%;
+    margin-left: 33%;
+    margin-top: 20vh;
+    border: 2px dotted tan;
+    text-align: center;
+}
+
+h3 {
+    color: darkmagenta;
+}
+
+input {
+    width: 75%;
+    background-color: inherit;
+    border: 0;
+    border-bottom: 1px solid lightgray;
+    color: darkslategray;
+}
+
+input:focus {
+    outline: 0;
+}
+
+#add {
+    background-color: mediumvioletred;
+    border: 1px solid mediumvioletred;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#items {
+    text-align:left ;
+}
+
+#delete {
+    background-color: burlywood;
+    float: right;
+    padding: 3px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}
+
+p {
+    color: darkslategray;
+}

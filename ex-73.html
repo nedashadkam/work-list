@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="ex-73.css">
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <h3>Work list</h3>
+
+        <input id="text">
+
+        <button id="add" onclick="addwork()">Add work</button>
+
+        <div id="items">
+
+            <p id="demo"></p>
+
+        </div>
+
+    </div>
+
+    <script>
+
+        function addwork() {
+
+            let text = document.getElementById("text").value;
+
+            if(text !== "") {
+
+                document.getElementById("demo").innerHTML +=
+                `<p>${text} <button id="delete" onclick="this.parentNode.remove()">Delete work</button></p>`;
+
+            document.getElementById("text").value = '';
+
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
